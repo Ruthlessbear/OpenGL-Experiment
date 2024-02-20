@@ -1,0 +1,8 @@
+﻿  Noise.cpp
+E:\OpenGL\OpenGLExperiment\OpenGLExperiment\OpenGLExperiment\Noise.cpp(14,19): warning C4244: “return”: 从“genType”转换到“float”，可能丢失数据
+          with
+          [
+              genType=double
+          ]
+E:\OpenGL\OpenGLExperiment\OpenGLExperiment\OpenGLExperiment\Noise.cpp(29,15): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  OpenGLExperiment.vcxproj -> E:\OpenGL\OpenGLExperiment\OpenGLExperiment\Debug\OpenGLExperiment.exe

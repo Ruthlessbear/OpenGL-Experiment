@@ -1,0 +1,7 @@
+#version 330 core		// 3.30版本
+layout(location = 0) in vec3 position;	// 三个浮点数vector向量表示位置 position变量名
+out vec3 ourColor;
+void main()
+{
+	gl_Position = vec4(position, 1.0f);	// 核心函数(位置信息赋值)
+}

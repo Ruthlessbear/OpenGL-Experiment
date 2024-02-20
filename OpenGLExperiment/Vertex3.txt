@@ -1,0 +1,10 @@
+#version 450 core		
+layout(location = 0) in vec3 position;	// 三个浮点数vector向量表示位置 position变量名
+layout(location = 1) in vec3 texcoord;
+out vec2 uv;
+uniform mat4 Transform_1;
+void main()
+{
+	gl_Position = Transform_1 * vec4(position, 1.0f);	// 核心函数(位置信息赋值)
+	uv = vec2(texcoord.x, 1 - texcoord.y);
+}

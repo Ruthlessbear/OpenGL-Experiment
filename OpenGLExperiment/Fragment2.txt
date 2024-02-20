@@ -1,0 +1,7 @@
+#version 330 core	// 版本信息
+out vec4 FragColor_1;								//输出是四个浮点数构成的一个向量 RGB+aerfa
+uniform vec4 time;
+void main()
+{
+	FragColor_1 = time;
+}

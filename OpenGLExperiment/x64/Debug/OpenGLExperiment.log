@@ -1,0 +1,13 @@
+﻿  AssimpTest.cpp
+  CameraNew.h
+E:\OpenGL\OpenGLExperiment\OpenGLExperiment\CameraNew.h(4,10): fatal error C1083: 无法打开包括文件: “GL/glew.h”: No such file or directory
+  LoadModel.cpp
+E:\OpenGL\OpenGLExperiment\OpenGLExperiment\LoadModel.cpp(5,10): fatal error C1083: 无法打开包括文件: “GL/glew.h”: No such file or directory
+  Main.cpp
+  Mesh.cpp
+E:\OpenGL\OpenGLExperiment\OpenGLExperiment\Mesh.cpp(1,10): fatal error C1083: 无法打开包括文件: “GL/glew.h”: No such file or directory
+  Model.cpp
+E:\OpenGL\OpenGLExperiment\OpenGLExperiment\Model.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\OpenGL\OpenGLExperiment\OpenGLExperiment\Model.cpp(1,10): fatal error C1083: 无法打开包括文件: “GL/glew.h”: No such file or directory
+  stb_image.cpp
+  正在生成代码...

@@ -1,0 +1,9 @@
+#version 450 core	// 版本信息
+in vec2 uv;
+out vec4 FragColor_1;								//输出是四个浮点数构成的一个向量 RGB+aerfa
+uniform sampler2D Texture;
+void main()
+{
+	FragColor_1 = texture(Texture, uv);
+	//FragColor_1 = texelFetch(Texture, ivec2(gl_FragCoord.xy), 0);
+}
