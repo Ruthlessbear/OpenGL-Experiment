@@ -22,7 +22,7 @@
 >- [x] **HDR**
 >- [x] **前向着色与延迟着色**
 >- [x] **SSAO屏幕空间环境光遮蔽**
-<br>
+
 **以上即是该项目中所实现的大部分功能效果，其中所需的知识可以参考下述网站或者书籍：**<br>
 - *LearnOpenGL-CN*: https://learnopengl-cn.github.io/<br>
 - *OpenGL超级宝典*<br>
